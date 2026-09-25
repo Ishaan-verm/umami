@@ -3,10 +3,14 @@
   "vcs": {
     "enabled": true,
     "clientKind": "git",
-    "useIgnoreFile": true
+    "useIgnoreFile": false
   },
   "files": {
-    "includes": ["**", "!!**/dist", "!!public/openapi.json"]
+    "includes": [
+      "**",
+      "!!**/dist",
+      "!!public/openapi.json"
+    ]
   },
   "formatter": {
     "enabled": true,
